@@ -102,6 +102,11 @@ section ul li:hover {
     border: 1px solid #443e54;
 }
 
+.social-list img {
+    width: 32px;
+    height: 32px;
+}
+
 /* animation */
 
 header div {
