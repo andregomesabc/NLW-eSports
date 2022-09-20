@@ -44,7 +44,7 @@ header div img {
     border-radius: 50%;
 }
 main {
-    max-width: 580px;
+    max-width: 360px;
     width: 90%;
     margin: 32px auto;
     display: grid;
@@ -100,11 +100,17 @@ section ul li:hover {
     border-radius: 50%;
     width: 80px;
     border: 1px solid #443e54;
+    margin-left: 15px;
 }
 
+.social-list {
+    padding-left: 60px;
+}
 .social-list img {
     width: 32px;
     height: 32px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 /* animation */
@@ -149,4 +155,15 @@ main section:nth-child(3) {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+/* swiper */
+
+section {
+    overflow: hidden;
+}
+
+section ul {
+    flex-wrap: nowrap;
+    gap: 0;
 }
